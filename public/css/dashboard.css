@@ -1,0 +1,109 @@
+
+
+body {
+	background-color: #000000;
+	font-family: "Segoe UI Light";
+	color :white;
+}
+
+.tile_container{
+	position: relative;
+	color: black;
+	width:100%;
+	background-color: white;
+	margin-top:100px;
+}
+
+.page_heading{
+	position: absolute;
+ 	top: 8px;
+  	right: 8px;
+  	color:white;
+  	font-size: 48px;
+}
+.square_common{
+	color: white;
+	padding : 4px;
+	/*background-image: linear-gradient(to top, #3f6b77db   0%, #007175  100%);*/
+	background-color: rgba(35, 73, 117, 0.67);
+}
+/*sizes*/
+.square_small {
+  height: 60px;
+  width: 60px;
+  
+}
+
+.square_medium {
+  height: 136px;
+  width: 136px;
+  
+}
+
+.rectangle {
+  height:136px;
+  width: 266px;
+ 
+}
+
+.square_big {
+  height: 288px;
+  width: 288px;
+ 
+}
+
+/*sizes*/
+
+/*tiles*/
+
+.tile_one{
+	position: absolute;
+ 	top: 8px;
+  	left: 8px;
+}
+
+.tile_two{
+	position: absolute;
+ 	top: 8px;
+  	left: 83px;
+ }
+.tile_three{
+	position: absolute;
+ 	top: 310px;
+  	left: 311px;
+ }
+/*===============tile four ====================*/
+.tile_four{
+	position: absolute;
+ 	top: 159px;
+  	left: 8px;
+}
+
+.tile_four_container{
+	position: relative;
+
+}
+.tile_four_label{
+	position: absolute;
+	top:266px;
+	left : 5px;
+}
+
+.tile_four_image{
+	position: absolute;
+	top: 72px;
+	left: 64px;
+}
+
+/*===============tile four ====================*/
+.tile_five {
+	position: absolute;
+	top:159px;
+	left : 311px;
+}
+.tile_six {
+	position: absolute;
+	top:83px;
+	left : 8px;
+}
+/*tiles*/
